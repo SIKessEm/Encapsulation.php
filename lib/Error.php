@@ -8,12 +8,12 @@
  */
 class Error extends \Error {
   /**
-   * Accessing error code
+   * Properties accessing error code
    */
   public const ACCESSING = 0x01;
 
   /**
-   * Mutation error code
+   * Properties mutation error code
    */
   public const MUTATION = 0x02;
 
