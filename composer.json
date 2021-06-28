@@ -1,0 +1,39 @@
+{
+    "name": "sikessem/encapsulation",
+    "type": "library",
+    "description": "The SIKessEm encapsulation objects",
+    "license": "Apache-2.0",
+    "keywords": [
+        "encapsulation",
+        "encapsulate",
+        "access-properties",
+        "mutate-properties",
+        "sikessem"
+    ],
+    "readme": "README.md",
+    "authors": [{
+        "homepage": "https://sikessem.omninf.com",
+        "name": "SIGUI kessé Emmanuel",
+        "email": "sikessem@omninf.com",
+        "role": "Developer"
+    }],
+    "support": {
+        "source": "https://github.com/SIKessEm/Encapsulation",
+        "issues": "https://github.com/SIKessEm/Encapsulation/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "SIKessEm\\Encapsulation\\": "lib/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "config": {
+        "vendor-dir": "pkg",
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
