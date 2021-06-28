@@ -1,7 +1,7 @@
 {
     "name": "sikessem/encapsulation",
     "type": "library",
-    "description": "The SIKessEm encapsulation objects",
+    "description": "Apply the encapsulation principle on PHP classes",
     "license": "Apache-2.0",
     "keywords": [
         "encapsulation",
